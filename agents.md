@@ -5,9 +5,9 @@
 This repository contains the static recipe website published at `https://cooking.mattao.net`.
 It is separate from the CV and automation blog repositories.
 
-The site is built with Jekyll and deployed by Cloudflare from the `deploy` branch.
+The site is built with Jekyll and deployed by Cloudflare Workers Builds from the `deploy` branch.
 GitHub Actions does not build or deploy the site. Its only responsibility is synchronizing `main`
-to `deploy`.
+to `deploy`. Cloudflare runs the build and Wrangler deploy commands automatically.
 
 ## Repository Structure
 
@@ -22,6 +22,7 @@ to `deploy`.
 - `_sass/_recipes.scss`: recipe-specific design and responsive layout.
 - `assets/images/recipes/`: local recipe images.
 - `.github/workflows/deploy.yml`: synchronizes `main` to `deploy`.
+- `wrangler.jsonc`: Cloudflare Workers asset deployment configuration.
 - `_config.yml`: Jekyll configuration and `recipes` collection definition.
 
 ## Recipe Format
@@ -94,6 +95,7 @@ The deployment flow is:
 push main
   -> GitHub Actions synchronizes deploy
   -> Cloudflare builds with `bundle exec jekyll build`
+  -> Cloudflare runs `npx wrangler@4.128.0 deploy`
   -> Cloudflare publishes `_site`
 ```
 
@@ -102,11 +104,13 @@ Cloudflare build settings are:
 
 ```text
 Build command: bundle exec jekyll build
+Deploy command: npx wrangler@4.128.0 deploy
 Output directory: _site
 Production branch: deploy
 ```
 
-Do not add PDF generation, Puppeteer, Wrangler configuration or CV-specific files to this repository.
+`wrangler.jsonc` is required by the Cloudflare deploy command and must not be removed.
+Do not add PDF generation, Puppeteer or CV-specific files to this repository.
 Do not commit `_site/`, `.jekyll-cache/`, `Gemfile.lock` or `node_modules/`.
 
 ## Validation
