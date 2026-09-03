@@ -12,6 +12,21 @@ description: "Il mio archivio personale di ricette. Testate, approvate e pronte 
 
 <section class="recipe-section">
   <div class="recipe-section-heading">
+    <h2>Ricette Top</h2>
+    <a href="#ultime-inserite">vedi le ultime inserite →</a>
+  </div>
+
+  <div class="recipe-top-grid">
+    {% for recipe in site.recipes %}
+      {% if recipe.top %}
+      {% include recipe-card.html recipe=recipe %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="recipe-section" id="ultime-inserite">
+  <div class="recipe-section-heading">
     <h2>Ultime inserite</h2>
     <a href="#categorie">esplora per categoria →</a>
   </div>
@@ -43,27 +58,4 @@ description: "Il mio archivio personale di ricette. Testate, approvate e pronte 
       </section>
     {% endfor %}
   </div>
-</section>
-
-<section class="recipe-section recipe-top-section">
-  <div class="recipe-section-heading">
-    <h2>Ricette Top</h2>
-  </div>
-
-  <div class="recipe-top-list">
-    {% for recipe in site.recipes %}
-      {% if recipe.top %}
-        <a href="{{ recipe.url | relative_url }}">
-          <span class="recipe-card-icon" aria-hidden="true">{{ recipe.icon }}</span>
-          <span>{{ recipe.title }}</span>
-        </a>
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
-
-<section class="recipe-about">
-  <p class="recipe-eyebrow">Dietro al Grembiule</p>
-  <h2>Ciao, sono Matteo.</h2>
-  <p>In questo spazio raccolgo solo le ricette che ho provato e che mi sono piaciute davvero. Niente storie infinite o introduzioni inutili: solo ingredienti, passaggi chiari e piatti che funzionano.</p>
 </section>

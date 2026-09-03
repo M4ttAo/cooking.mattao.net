@@ -1,5 +1,32 @@
 .recipe-hero {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  min-height: 18rem;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
   padding: 3.5rem 0 2.5rem;
+  border-radius: var(--radius);
+}
+
+.recipe-hero::before,
+.recipe-hero::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+}
+
+.recipe-hero::before {
+  z-index: -2;
+  background: url("/assets/images/hero.jpg") center / cover;
+  filter: blur(6px);
+  transform: scale(1.06);
+}
+
+.recipe-hero::after {
+  z-index: -1;
+  background: rgba(255, 250, 243, 0.78);
 }
 
 .recipe-eyebrow {
@@ -21,6 +48,10 @@
   max-width: 32rem;
   color: var(--text-muted);
   font-size: 1.1rem;
+}
+
+[data-theme="dark"] .recipe-hero::after {
+  background: rgba(33, 30, 27, 0.78);
 }
 
 .recipe-section {
@@ -62,6 +93,12 @@
 .recipe-archive-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.recipe-top-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 0.8rem;
 }
 
@@ -116,6 +153,18 @@
   line-height: 1.4;
 }
 
+.recipe-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.65rem;
+}
+
+.recipe-card-tags .tag {
+  margin: 0;
+  font-size: 0.58rem;
+}
+
 .recipe-board {
   display: grid;
   grid-auto-columns: minmax(15rem, 18rem);
@@ -129,7 +178,7 @@
 
 .recipe-category {
   min-width: 0;
-  max-height: 30rem;
+  max-height: 38rem;
   overflow-y: auto;
   padding: 0.8rem;
   background: var(--bg-soft);
@@ -273,6 +322,10 @@
   .recipe-archive-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .recipe-top-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 480px) {
@@ -280,6 +333,10 @@
   .recipe-archive-grid {
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
+  }
+
+  .recipe-top-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .recipe-card-body {
@@ -292,5 +349,9 @@
 
   .recipe-hero {
     padding-top: 2rem;
+  }
+
+  .recipe-category {
+    max-height: 32rem;
   }
 }

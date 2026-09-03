@@ -9,6 +9,14 @@
       {% if include.recipe.categories %}
         <p>{{ include.recipe.categories | join: " · " }}</p>
       {% endif %}
+
+      {% if include.recipe.tags %}
+        <p class="recipe-card-tags">
+          {% for tag in include.recipe.tags %}
+            {% include tag-badge.html tag=tag %}
+          {% endfor %}
+        </p>
+      {% endif %}
     </div>
   </a>
 </article>
