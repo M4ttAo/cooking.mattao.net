@@ -1,0 +1,28 @@
+title: "Cook With MattAo"
+description: "Il mio archivio personale di ricette. Testate, approvate e pronte da rifare."
+url: "https://cooking.mattao.net"
+lang: "it"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:name/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules

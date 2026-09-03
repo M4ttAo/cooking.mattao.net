@@ -1,0 +1,101 @@
+.tag--blue {
+  background: var(--blue-100);
+  color: var(--blue-700);
+}
+
+.tag--cyan {
+  background: var(--cyan-100);
+  color: var(--cyan-700);
+}
+
+.tag--purple {
+  background: var(--purple-100);
+  color: var(--purple-700);
+}
+
+.tag--green {
+  background: var(--green-100);
+  color: var(--green-700);
+}
+
+.tag--orange {
+  background: var(--orange-100);
+  color: var(--orange-700);
+}
+
+.tag--slate {
+  background: var(--slate-200);
+  color: var(--slate-700);
+}
+
+.tag--yellow {
+  background: #fff0b8;
+  color: #806018;
+}
+
+.tag--pink {
+  background: #f8dce2;
+  color: #934656;
+}
+
+.tag--red {
+  background: #f8d8cf;
+  color: #a14835;
+}
+
+.tag--teal {
+  background: #d8eeea;
+  color: #28736d;
+}
+
+
+[data-theme="dark"] .tag--blue {
+  background: var(--blue-900);
+  color: var(--blue-200);
+}
+
+[data-theme="dark"] .tag--cyan {
+  background: var(--cyan-900);
+  color: var(--cyan-200);
+}
+
+[data-theme="dark"] .tag--purple {
+  background: var(--purple-900);
+  color: var(--purple-200);
+}
+
+[data-theme="dark"] .tag--green {
+  background: var(--green-900);
+  color: var(--green-200);
+}
+
+[data-theme="dark"] .tag--orange {
+  background: var(--orange-900);
+  color: var(--orange-200);
+}
+
+[data-theme="dark"] .tag--slate {
+  background: var(--slate-800);
+  color: var(--slate-200);
+}
+
+[data-theme="dark"] .tag--yellow {
+  background: #55471e;
+  color: #f4d979;
+}
+
+[data-theme="dark"] .tag--pink {
+  background: #542d37;
+  color: #f0aebc;
+}
+
+[data-theme="dark"] .tag--red {
+  background: #5b3027;
+  color: #f2a28c;
+}
+
+[data-theme="dark"] .tag--teal {
+  background: #214b47;
+  color: #9ad4cc;
+}
+a.tag:hover { filter: brightness(0.96); }

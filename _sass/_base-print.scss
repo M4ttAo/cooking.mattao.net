@@ -1,0 +1,65 @@
+@page {
+  size: A4;
+  margin: 16mm;
+}
+
+.print-body {
+  font-size: 15.5px;
+  --bg: #FFFFFF;
+}
+
+.print-wrap {
+  max-width: 100%;
+  padding: 0;
+}
+
+.print-wrap h2 {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.print-wrap .entry {
+  margin-bottom: 1.1rem;
+}
+
+.print-wrap .hero p.tagline {
+  margin-top: -0.2rem;
+}
+
+.entry {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.experience-entry {
+  break-inside: auto;
+  page-break-inside: auto;
+}
+
+.entry-company {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.role {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.print-footer {
+  margin-top: 2rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--border);
+
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+
+  color: var(--text-faint);
+}
+
+.print-wrap a {
+  text-decoration: none;
+}

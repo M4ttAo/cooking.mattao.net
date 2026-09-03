@@ -1,0 +1,23 @@
+{% if site.data.projects.size > 0 %}
+<h2>Projects</h2>
+
+{% for p in site.data.projects %}
+  <div class="entry">
+    <div class="entry-head">
+      <h3>{{ p.title }}</h3>
+
+      {% if p.period %}
+      <time class="meta">{{ p.period }}</time>
+      {% endif %}
+    </div>
+
+    {{ p.description | markdownify }}
+
+    {% if p.tags %}
+    <p class="tag-list">
+      {% for t in p.tags %}{% include tag-badge.html tag=t %}{% endfor %}
+    </p>
+    {% endif %}
+  </div>
+{% endfor %}
+{% endif %}

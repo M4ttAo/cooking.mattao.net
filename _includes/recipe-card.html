@@ -1,0 +1,14 @@
+<article class="recipe-card{% if include.compact %} recipe-card--compact{% endif %}">
+  <a href="{{ include.recipe.url | relative_url }}">
+    {% if include.recipe.cover %}
+      <img src="{{ include.recipe.cover | relative_url }}" alt="{{ include.recipe.title }}" loading="lazy">
+    {% endif %}
+    <div class="recipe-card-body">
+      <span class="recipe-card-icon" aria-hidden="true">{{ include.recipe.icon }}</span>
+      <h3>{{ include.recipe.title }}</h3>
+      {% if include.recipe.categories %}
+        <p>{{ include.recipe.categories | join: " · " }}</p>
+      {% endif %}
+    </div>
+  </a>
+</article>

@@ -1,0 +1,121 @@
+:root {
+
+  /* Fonts */
+
+  --font-heading:
+    "DM Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  --font-body:
+    "Nunito Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  --font-mono:
+    "IBM Plex Mono",
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    monospace;
+
+
+  /* Layout */
+
+  --radius: 12px;
+  --measure: 68rem;
+
+
+  /* Spacing */
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 2rem;
+  --space-4: 4rem;
+
+
+  /* Blue */
+
+  --blue-100: #e3edf4;
+  --blue-200: #c3dce9;
+  --blue-700: #35647b;
+  --blue-900: #19384a;
+
+
+  /* Cyan */
+
+  --cyan-100: #dff2ef;
+  --cyan-200: #bce2dd;
+  --cyan-700: #28736d;
+  --cyan-900: #194a47;
+
+
+  /* Purple */
+
+  --purple-100: #eee7f5;
+  --purple-200: #decce9;
+  --purple-700: #765482;
+  --purple-900: #432d4f;
+
+
+  /* Green */
+
+  --green-100: #e5f0df;
+  --green-200: #cce2c2;
+  --green-700: #4b7544;
+  --green-900: #2f4c2c;
+
+
+  /* Orange */
+
+  --orange-100: #fbe9d5;
+  --orange-200: #f3cfaa;
+  --orange-700: #a86332;
+  --orange-900: #663b1e;
+
+
+  /* Slate */
+
+  --slate-200: #e8e2da;
+  --slate-700: #665f57;
+  --slate-800: #38332e;
+
+
+  /* Light */
+
+  --bg: #fffaf3;
+  --bg-soft: #f5eee5;
+  --border: #e8ddd1;
+
+  --text: #2d2926;
+  --text-muted: #766d65;
+  --text-faint: #a69b91;
+
+  --accent: #c85c3b;
+  --accent-hover: #a9472e;
+
+  --tag-bg: #eee7de;
+  --tag-text: #665c54;
+}
+
+
+[data-theme="dark"] {
+
+  --bg: #211e1b;
+  --bg-soft: #2b2723;
+  --border: #443d37;
+
+  --text: #f3ebe2;
+  --text-muted: #c3b6a9;
+  --text-faint: #918277;
+
+  --accent: #e48663;
+  --accent-hover: #f0a17f;
+
+  --tag-bg: #39332e;
+  --tag-text: #e1d4c7;
+}

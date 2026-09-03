@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article class="recipe">
+  {% if page.cover %}
+    <img class="recipe-cover" src="{{ page.cover | relative_url }}" alt="{{ page.title }}">
+  {% endif %}
+
+  <header class="post-header">
+    {% if page.icon %}
+      <p class="recipe-icon" aria-hidden="true">{{ page.icon }}</p>
+    {% endif %}
+
+    <h1>{{ page.title }}</h1>
+
+    <div class="recipe-meta">
+      {% if page.top %}<span class="recipe-top">Top</span>{% endif %}
+      {% if page.categories %}
+        <span>{{ page.categories | join: " · " }}</span>
+      {% endif %}
+    </div>
+
+    {% if page.tags %}
+      <p class="tag-list">
+        {% for tag in page.tags %}{% include tag-badge.html tag=tag %}{% endfor %}
+      </p>
+    {% endif %}
+  </header>
+
+  <div class="e-content recipe-content">{{ content }}</div>
+
+  <p class="recipe-back"><a href="{{ '/' | relative_url }}">← torna alle ricette</a></p>
+</article>
