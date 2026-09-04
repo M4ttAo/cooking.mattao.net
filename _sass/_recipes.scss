@@ -47,11 +47,22 @@
 }
 
 .recipe-section:nth-of-type(2)::before {
-  background: transparent;
+  background: var(--section-sage);
 }
 
 .recipe-section:nth-of-type(3)::before {
+  background: transparent;
+}
+
+.recipe-section:nth-of-type(4)::before {
   background: var(--section-meadow);
+}
+
+.recipe-section:nth-of-type(2) .recipe-section-heading h2,
+.recipe-section:nth-of-type(2) .recipe-section-heading a,
+.recipe-section:nth-of-type(4) .recipe-section-heading h2,
+.recipe-section:nth-of-type(4) .recipe-section-note {
+  color: var(--section-text);
 }
 
 .recipe-section-heading {
