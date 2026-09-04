@@ -18,9 +18,9 @@
   color: var(--green-700);
 }
 
-.tag--orange {
-  background: var(--orange-100);
-  color: var(--orange-700);
+.tag--sage {
+  background: var(--sage-100);
+  color: var(--sage-700);
 }
 
 .tag--slate {
@@ -69,9 +69,9 @@
   color: var(--green-200);
 }
 
-[data-theme="dark"] .tag--orange {
-  background: var(--orange-900);
-  color: var(--orange-200);
+[data-theme="dark"] .tag--sage {
+  background: var(--sage-900);
+  color: var(--sage-200);
 }
 
 [data-theme="dark"] .tag--slate {
