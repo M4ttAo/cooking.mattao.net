@@ -1,13 +1,9 @@
 .recipe-hero {
-  /* Keep the archive introduction intentionally image-free. */
   display: flex;
   min-height: 18rem;
   flex-direction: column;
   justify-content: center;
   padding: 3.5rem 0 2.5rem;
-  background: var(--bg-soft);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
 }
 
 .recipe-eyebrow {
@@ -26,13 +22,27 @@
 }
 
 .recipe-hero > p:last-child {
-  max-width: 32rem;
+  max-width: none;
   color: var(--text-muted);
   font-size: 1.1rem;
 }
 
 .recipe-section {
   margin-top: var(--space-4);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+}
+
+.recipe-section:nth-of-type(1) {
+  background: var(--section-sage);
+}
+
+.recipe-section:nth-of-type(2) {
+  background: var(--section-blue);
+}
+
+.recipe-section:nth-of-type(3) {
+  background: var(--section-meadow);
 }
 
 .recipe-section-heading {
@@ -118,7 +128,7 @@
 
 .recipe-card h3 {
   margin: 0 0 0.3rem;
-  font-size: 1rem;
+  font-size: 1.15rem;
   letter-spacing: -0.02em;
 }
 
@@ -139,7 +149,7 @@
 
 .recipe-card-tags .tag {
   margin: 0;
-  font-size: 0.58rem;
+  font-size: 0.72rem;
 }
 
 .recipe-board {
@@ -194,7 +204,7 @@
 }
 
 .recipe-card--compact h3 {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
 }
 
 .recipe-top-list {
@@ -322,7 +332,11 @@
   }
 
   .recipe-card h3 {
-    font-size: 0.85rem;
+    font-size: 1rem;
+  }
+
+  .recipe-section {
+    padding: 1rem;
   }
 
   .recipe-hero {

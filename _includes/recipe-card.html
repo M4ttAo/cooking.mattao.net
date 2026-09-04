@@ -6,10 +6,6 @@
     <div class="recipe-card-body">
       <span class="recipe-card-icon" aria-hidden="true">{{ include.recipe.icon }}</span>
       <h3>{{ include.recipe.title }}</h3>
-      {% if include.recipe.categories %}
-        <p>{{ include.recipe.categories | join: " · " }}</p>
-      {% endif %}
-
       {% if include.recipe.tags %}
         <p class="recipe-card-tags">
           {% for tag in include.recipe.tags %}
