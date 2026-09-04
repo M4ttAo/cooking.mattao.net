@@ -6,7 +6,7 @@
     <div class="recipe-card-body">
       <span class="recipe-card-icon" aria-hidden="true">{{ include.recipe.icon }}</span>
       <h3>{{ include.recipe.title }}</h3>
-      {% if include.recipe.tags %}
+      {% if include.recipe.tags and include.compact != true %}
         <p class="recipe-card-tags">
           {% for tag in include.recipe.tags %}
             {% include tag-badge.html tag=tag %}

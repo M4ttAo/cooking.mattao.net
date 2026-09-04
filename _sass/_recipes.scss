@@ -207,10 +207,12 @@
 
 .recipe-category-list {
   display: grid;
+  align-items: start;
   gap: 0.6rem;
 }
 
 .recipe-card--compact {
+  height: fit-content;
   border-color: transparent;
   background: var(--bg);
 }
