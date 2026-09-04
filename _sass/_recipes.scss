@@ -65,6 +65,11 @@
   color: var(--section-text);
 }
 
+[data-theme="dark"] .recipe-section:nth-of-type(4) .recipe-section-heading h2,
+[data-theme="dark"] .recipe-section:nth-of-type(4) .recipe-section-note {
+  color: var(--text);
+}
+
 .recipe-section-heading {
   display: flex;
   align-items: baseline;
