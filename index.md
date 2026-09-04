@@ -5,7 +5,6 @@ description: "Il mio archivio personale di ricette. Testate, approvate e pronte 
 ---
 
 <section class="recipe-hero">
-  <p class="recipe-eyebrow">CookingTao</p>
   <h1>Cook With MattAo</h1>
   <p>Il mio archivio personale di ricette. Testate, approvate e pronte da rifare.</p>
 </section>
