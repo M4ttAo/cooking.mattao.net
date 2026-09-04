@@ -123,6 +123,105 @@
   transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
+/* --- Section-specific recipe card colors --- */
+
+/* 1. "Ricette Top" section - first .recipe-section has sage bar bg */
+.recipe-section:first-child .recipe-card {
+  background: var(--bg-soft);
+  border-color: var(--border);
+}
+.recipe-section:first-child .recipe-card h3 {
+  color: var(--text);
+}
+.recipe-section:first-child .recipe-card p {
+  color: var(--text-muted);
+}
+.recipe-section:first-child .recipe-card-tags .tag {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* 2. "Ultime inserite" section - #ultime-inserite has meadow green bg */
+.recipe-section#ultime-inserite .recipe-card {
+  background: var(--bg-soft);
+  border-color: var(--border);
+}
+.recipe-section#ultime-inserite .recipe-card h3 {
+  color: var(--text);
+}
+.recipe-section#ultime-inserite .recipe-card p {
+  color: var(--text-muted);
+}
+.recipe-section#ultime-inserite .recipe-card-tags .tag {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* 3. "Categorie" section - #categorie has meadow green bg */
+.recipe-section#categorie .recipe-card {
+  background: var(--bg-soft);
+  border-color: var(--border);
+}
+.recipe-section#categorie .recipe-card h3 {
+  color: var(--text);
+}
+.recipe-section#categorie .recipe-card p {
+  color: var(--text-muted);
+}
+.recipe-section#categorie .recipe-card-tags .tag {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* Dark mode adjustments for section cards */
+[data-theme="dark"] .recipe-section:first-child .recipe-card {
+  /* Dark sage bar #1e4d6f - ensure card stands out */
+  background: var(--bg-soft);
+  border-color: var(--border);
+}
+[data-theme="dark"] .recipe-section:first-child .recipe-card h3 {
+  color: var(--text);
+}
+[data-theme="dark"] .recipe-section:first-child .recipe-card p {
+  color: var(--text-muted);
+}
+[data-theme="dark"] .recipe-section:first-child .recipe-card-tags .tag {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+[data-theme="dark"] .recipe-section#ultime-inserite .recipe-card {
+  background: var(--bg-soft);
+  border-color: var(--border);
+}
+[data-theme="dark"] .recipe-section#ultime-inserite .recipe-card h3 {
+  color: var(--text);
+}
+[data-theme="dark"] .recipe-section#ultime-inserite .recipe-card p {
+  color: var(--text-muted);
+}
+[data-theme="dark"] .recipe-section#ultime-inserite .recipe-card-tags .tag {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+[data-theme="dark"] .recipe-section#categorie .recipe-card {
+  background: var(--bg-soft);
+  border-color: var(--border);
+}
+[data-theme="dark"] .recipe-section#categorie .recipe-card h3 {
+  color: var(--text);
+}
+[data-theme="dark"] .recipe-section#categorie .recipe-card p {
+  color: var(--text-muted);
+}
+[data-theme="dark"] .recipe-section#categorie .recipe-card-tags .tag {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* ---- */
+
 .recipe-card:hover {
   border-color: var(--accent);
   transform: translateY(-3px);
