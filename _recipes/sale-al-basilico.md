@@ -6,7 +6,6 @@ permalink: /recipes/sale-basilico/
 icon: 🍃
 cover: /assets/images/recipes/sale-basilico/cover.jpg
 image: /assets/images/recipes/sale-basilico/cover.jpg
-categories: [Condimenti, Vegetariano]
 tags: [Condimenti, Vegetariano]
 date: 2026-09-05
 ---

@@ -6,7 +6,6 @@ permalink: /recipes/carbonara/
 icon: 🍝
 cover: /assets/images/recipes/carbonara/cover.jpg
 image: /assets/images/recipes/carbonara/cover.jpg
-categories: [Primi]
 tags: [Primi]
 date: 2026-09-04
 top: true

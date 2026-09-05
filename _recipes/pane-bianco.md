@@ -6,7 +6,6 @@ permalink: /recipes/pane-bianco/
 icon: 🍞
 cover: /assets/images/recipes/pane-bianco/cover.jpg
 image: /assets/images/recipes/pane-bianco/cover.jpg
-categories: [Da Forno, Secondi]
 tags: [Da Forno, Secondi]
 date: 2026-09-04
 ---

@@ -205,6 +205,11 @@
   background: var(--category-card-bg);
   border-color: var(--category-card-border);
 }
+[data-theme="dark"] .recipe-section#categorie .recipe-category,
+[data-theme="dark"] .recipe-section#categorie .recipe-category > h3 {
+  background: var(--category-card-bg);
+  border-color: var(--category-card-border);
+}
 [data-theme="dark"] .recipe-section#categorie .recipe-card h3 {
   color: var(--text);
 }

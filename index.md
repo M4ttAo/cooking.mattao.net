@@ -50,7 +50,7 @@ description: "Il mio archivio personale di ricette. Testate, approvate e pronte 
         <h3>{{ category }}</h3>
         <div class="recipe-category-list">
           {% for recipe in site.recipes %}
-            {% if recipe.categories contains category %}
+            {% if recipe.tags contains category %}
               {% include recipe-card.html recipe=recipe compact=true %}
             {% endif %}
           {% endfor %}
