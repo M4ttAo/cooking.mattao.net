@@ -8,6 +8,7 @@ cover: /assets/images/recipes/farinata-di-ceci/cover.jpg
 image: /assets/images/recipes/farinata-di-ceci/cover.jpg
 categories: [Da Forno, Primi, Secondi, Fit, Piatto Unico, Vegetariano]
 tags: [Da Forno, Primi, Secondi, Fit, Piatto Unico, Vegetariano]
+date: 2026-09-04
 ---
 ![image](/assets/images/recipes/farinata-di-ceci/farinata.png)
 

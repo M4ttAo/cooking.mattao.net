@@ -8,6 +8,7 @@ cover: /assets/images/recipes/pangocciolo-in-tazza/cover.jpg
 image: /assets/images/recipes/pangocciolo-in-tazza/cover.jpg
 categories: [Fit, Dolci, Colazione]
 tags: [Fit, Dolci, Colazione]
+date: 2026-09-04
 top: true
 ---
 ![image](/assets/images/recipes/pangocciolo-in-tazza/pangocciolo.jpg)

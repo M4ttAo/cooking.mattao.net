@@ -8,6 +8,7 @@ cover: /assets/images/recipes/fit-mug-cake/cover.jpg
 image: /assets/images/recipes/fit-mug-cake/cover.jpg
 categories: [Fit, Dolci, Colazione]
 tags: [Fit, Dolci, Colazione]
+date: 2026-09-04
 ---
 ![image](/assets/images/recipes/fit-mug-cake/mug-cake.jpg)
 

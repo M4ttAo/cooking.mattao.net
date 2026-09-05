@@ -8,6 +8,7 @@ cover: /assets/images/recipes/panini-pulled-chicken/cover.jpg
 image: /assets/images/recipes/panini-pulled-chicken/cover.jpg
 categories: [Secondi, Piatto Unico, Fit]
 tags: [Secondi, Piatto Unico, Fit]
+date: 2026-09-04
 top: true
 ---
 ## Ingredienti

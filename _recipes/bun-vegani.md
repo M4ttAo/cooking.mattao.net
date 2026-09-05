@@ -8,6 +8,7 @@ cover: /assets/images/recipes/bun-vegani/cover.jpg
 image: /assets/images/recipes/bun-vegani/cover.jpg
 categories: [Da Forno, Secondi, Fit, Piatto Unico, Vegano, Vegetariano]
 tags: [Da Forno, Secondi, Fit, Piatto Unico, Vegano, Vegetariano]
+date: 2026-09-04
 top: true
 ---
 ## Ingredienti

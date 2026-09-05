@@ -8,6 +8,7 @@ cover: /assets/images/recipes/bun-alla-zucca/cover.jpg
 image: /assets/images/recipes/bun-alla-zucca/cover.jpg
 categories: [Da Forno, Secondi]
 tags: [Da Forno, Secondi]
+date: 2026-09-04
 ---
 ![image](/assets/images/recipes/bun-alla-zucca/bun.jpg)
 

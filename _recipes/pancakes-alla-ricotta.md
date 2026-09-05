@@ -8,6 +8,7 @@ cover: /assets/images/recipes/pancakes-alla-ricotta/cover.jpg
 image: /assets/images/recipes/pancakes-alla-ricotta/cover.jpg
 categories: [Fit, Dolci, Colazione]
 tags: [Fit, Dolci, Colazione]
+date: 2026-09-04
 ---
 ![image](/assets/images/recipes/pancakes-alla-ricotta/pancakes.jpg)
 
