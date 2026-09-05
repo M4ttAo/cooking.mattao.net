@@ -31,7 +31,8 @@ description: "Il mio archivio personale di ricette. Testate, approvate e pronte 
   </div>
 
   <div class="recipe-feature-grid">
-    {% for recipe in site.recipes limit: 4 %}
+    {% assign latest_recipes = site.recipes | sort: "date" | reverse %}
+    {% for recipe in latest_recipes limit: 4 %}
       {% include recipe-card.html recipe=recipe %}
     {% endfor %}
   </div>

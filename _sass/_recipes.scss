@@ -202,8 +202,8 @@
 }
 
 [data-theme="dark"] .recipe-section#categorie .recipe-card {
-  background: var(--bg-soft);
-  border-color: var(--border);
+  background: var(--category-card-bg);
+  border-color: var(--category-card-border);
 }
 [data-theme="dark"] .recipe-section#categorie .recipe-card h3 {
   color: var(--text);

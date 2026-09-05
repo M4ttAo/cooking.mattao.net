@@ -9,6 +9,7 @@ image: /assets/images/recipes/gnocchi-barbabietola/cover.jpg
 categories: [Fit, Piatto Unico, Primi, Vegano, Vegetariano]
 tags: [Fit, Piatto Unico, Primi, Vegano, Vegetariano]
 date: 2026-09-05
+top: true
 ---
 
 ![image](/assets/images/recipes/gnocchi-barbabietola/gnocchi.jpg)
