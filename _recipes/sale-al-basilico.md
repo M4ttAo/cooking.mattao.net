@@ -3,7 +3,7 @@ layout: recipe
 title: Sale al Basilico
 slug: sale basilico
 permalink: /recipes/sale-basilico/
-icon: 🍋
+icon: 🍃
 cover: /assets/images/recipes/sale-basilico/cover.jpg
 image: /assets/images/recipes/sale-basilico/cover.jpg
 categories: [Condimenti, Vegetariano]
