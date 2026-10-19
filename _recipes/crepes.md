@@ -6,8 +6,8 @@ permalink: /recipes/crepes/
 icon: 🫓
 cover: /assets/images/recipes/crepes/cover.jpg
 image: /assets/images/recipes/crepes/cover.jpg
-categories: [Dolci, Vegetariano]
 tags: [Dolci, Vegetariano]
+date: 2026-09-04
 top: true
 ---
 ![image](/assets/images/recipes/crepes/crepes.jpg)

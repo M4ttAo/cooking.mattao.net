@@ -15,9 +15,6 @@ layout: default
 
     <div class="recipe-meta">
       {% if page.top %}<span class="recipe-top">Top</span>{% endif %}
-      {% if page.categories %}
-        <span>{{ page.categories | join: " · " }}</span>
-      {% endif %}
     </div>
 
     {% if page.tags %}

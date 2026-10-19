@@ -6,8 +6,8 @@ permalink: /recipes/vellutata-di-zucca/
 icon: 🍲
 cover: /assets/images/recipes/vellutata-di-zucca/cover.jpg
 image: /assets/images/recipes/vellutata-di-zucca/cover.jpg
-categories: [Primi, Fit, Vegano, Vegetariano]
 tags: [Primi, Fit, Vegano, Vegetariano]
+date: 2026-09-04
 ---
 ![image](/assets/images/recipes/vellutata-di-zucca/vellutata.jpg)
 

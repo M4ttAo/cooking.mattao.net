@@ -5,7 +5,6 @@ description: "Il mio archivio personale di ricette. Testate, approvate e pronte 
 ---
 
 <section class="recipe-hero">
-  <p class="recipe-eyebrow">CookingTao</p>
   <h1>Cook With MattAo</h1>
   <p>Il mio archivio personale di ricette. Testate, approvate e pronte da rifare.</p>
 </section>
@@ -32,7 +31,8 @@ description: "Il mio archivio personale di ricette. Testate, approvate e pronte 
   </div>
 
   <div class="recipe-feature-grid">
-    {% for recipe in site.recipes limit: 4 %}
+    {% assign latest_recipes = site.recipes | sort: "date" | reverse %}
+    {% for recipe in latest_recipes limit: 4 %}
       {% include recipe-card.html recipe=recipe %}
     {% endfor %}
   </div>
@@ -50,7 +50,7 @@ description: "Il mio archivio personale di ricette. Testate, approvate e pronte 
         <h3>{{ category }}</h3>
         <div class="recipe-category-list">
           {% for recipe in site.recipes %}
-            {% if recipe.categories contains category %}
+            {% if recipe.tags contains category %}
               {% include recipe-card.html recipe=recipe compact=true %}
             {% endif %}
           {% endfor %}

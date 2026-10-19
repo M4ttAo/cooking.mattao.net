@@ -8,6 +8,7 @@ cover: /assets/images/recipes/pane-bianco-allolio/cover.jpg
 image: /assets/images/recipes/pane-bianco-allolio/cover.jpg
 categories: [Da Forno, Vegano, Vegetariano, Impasti]
 tags: [Da Forno, Vegano, Vegetariano, Impasti]
+date: 2026-09-04
 ---
 ![image](/assets/images/recipes/pane-bianco-allolio/pane.jpg)
 

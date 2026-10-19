@@ -8,6 +8,7 @@ cover: /assets/images/recipes/bun-vegani/cover.jpg
 image: /assets/images/recipes/bun-vegani/cover.jpg
 categories: [Da Forno, Impasti, Vegano]
 tags: [Da Forno, Impasti, Vegano]
+date: 2026-09-04
 top: true
 ---
 ## Ingredienti

@@ -6,9 +6,10 @@ permalink: /recipes/maionese/
 icon: 🍋
 cover: /assets/images/recipes/maionese/cover.jpg
 image: /assets/images/recipes/maionese/cover.jpg
-categories: [Salse, Vegetariano]
-tags: [Salse, Vegetariano]
+tags: [Condimenti, Vegetariano]
+date: 2026-09-05
 ---
+
 ![image](/assets/images/recipes/maionese/maionese.jpg)
 
 ## Ingredienti

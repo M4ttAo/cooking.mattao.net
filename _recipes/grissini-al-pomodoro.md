@@ -8,6 +8,7 @@ cover: /assets/images/recipes/grissini-al-pomodoro/cover.jpg
 image: /assets/images/recipes/grissini-al-pomodoro/cover.jpg
 categories: [Da Forno, Vegetariano, Vegano, Impasti]
 tags: [Da Forno, Vegetariano, Vegano, Impasti]
+date: 2026-09-04
 ---
 ![image](/assets/images/recipes/grissini-al-pomodoro/grissini.jpg)
 

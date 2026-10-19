@@ -6,8 +6,8 @@ permalink: /recipes/pancake/
 icon: 🥞
 cover: /assets/images/recipes/pancake/cover.jpg
 image: /assets/images/recipes/pancake/cover.jpg
-categories: [Dolci, Colazione]
 tags: [Dolci, Colazione]
+date: 2026-09-04
 ---
 ![image](/assets/images/recipes/pancake/pancake.jpg)
 

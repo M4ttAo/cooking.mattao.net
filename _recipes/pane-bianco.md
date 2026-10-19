@@ -8,6 +8,7 @@ cover: /assets/images/recipes/pane-bianco/cover.jpg
 image: /assets/images/recipes/pane-bianco/cover.jpg
 categories: [Da Forno, Impasti]
 tags: [Da Forno, Impasti]
+date: 2026-09-04
 ---
 ![image](/assets/images/recipes/pane-bianco/pane.jpg)
 
