@@ -6,8 +6,8 @@ permalink: /recipes/pane-bianco-allolio/
 icon: 🍞
 cover: /assets/images/recipes/pane-bianco-allolio/cover.jpg
 image: /assets/images/recipes/pane-bianco-allolio/cover.jpg
-categories: [Da Forno, Secondi, Vegano, Vegetariano]
-tags: [Da Forno, Secondi, Vegano, Vegetariano]
+categories: [Da Forno, Vegano, Vegetariano, Impasti]
+tags: [Da Forno, Vegano, Vegetariano, Impasti]
 ---
 ![image](/assets/images/recipes/pane-bianco-allolio/pane.jpg)
 

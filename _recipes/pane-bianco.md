@@ -6,8 +6,8 @@ permalink: /recipes/pane-bianco/
 icon: 🍞
 cover: /assets/images/recipes/pane-bianco/cover.jpg
 image: /assets/images/recipes/pane-bianco/cover.jpg
-categories: [Da Forno, Secondi]
-tags: [Da Forno, Secondi]
+categories: [Da Forno, Impasti]
+tags: [Da Forno, Impasti]
 ---
 ![image](/assets/images/recipes/pane-bianco/pane.jpg)
 

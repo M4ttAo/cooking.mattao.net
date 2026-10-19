@@ -6,8 +6,8 @@ permalink: /recipes/fit-mug-cake/
 icon: 🧁
 cover: /assets/images/recipes/fit-mug-cake/cover.jpg
 image: /assets/images/recipes/fit-mug-cake/cover.jpg
-categories: [Fit, Dolci, Colazione]
-tags: [Fit, Dolci, Colazione]
+categories: [Fit, Dolci, Colazione, Vegetariano]
+tags: [Fit, Dolci, Colazione, Vegetariano]
 ---
 ![image](/assets/images/recipes/fit-mug-cake/mug-cake.jpg)
 

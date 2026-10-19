@@ -6,8 +6,8 @@ permalink: /recipes/bun-vegani/
 icon: 🍔
 cover: /assets/images/recipes/bun-vegani/cover.jpg
 image: /assets/images/recipes/bun-vegani/cover.jpg
-categories: [Da Forno, Secondi, Fit, Piatto Unico, Vegano, Vegetariano]
-tags: [Da Forno, Secondi, Fit, Piatto Unico, Vegano, Vegetariano]
+categories: [Da Forno, Impasti, Vegano]
+tags: [Da Forno, Impasti, Vegano]
 top: true
 ---
 ## Ingredienti

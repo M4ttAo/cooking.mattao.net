@@ -10,7 +10,7 @@ description: "Il mio archivio personale di ricette. Testate, approvate e pronte 
   <p>Il mio archivio personale di ricette. Testate, approvate e pronte da rifare.</p>
 </section>
 
-<section class="recipe-section">
+<section class="recipe-section recipe-section--top">
   <div class="recipe-section-heading">
     <h2>Ricette Top</h2>
     <a href="#ultime-inserite">vedi le ultime inserite →</a>
@@ -25,7 +25,7 @@ description: "Il mio archivio personale di ricette. Testate, approvate e pronte 
   </div>
 </section>
 
-<section class="recipe-section" id="ultime-inserite">
+<section class="recipe-section recipe-section--latest" id="ultime-inserite">
   <div class="recipe-section-heading">
     <h2>Ultime inserite</h2>
     <a href="#categorie">esplora per categoria →</a>
@@ -38,7 +38,7 @@ description: "Il mio archivio personale di ricette. Testate, approvate e pronte 
   </div>
 </section>
 
-<section class="recipe-section" id="categorie">
+<section class="recipe-section recipe-section--categories" id="categorie">
   <div class="recipe-section-heading">
     <h2>Categorie</h2>
     <span class="recipe-section-note">scorri per esplorare</span>

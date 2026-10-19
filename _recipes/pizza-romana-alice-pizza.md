@@ -6,8 +6,8 @@ permalink: /recipes/pizza-romana-alice-pizza/
 icon: 🍕
 cover: /assets/images/recipes/pizza-romana-alice-pizza/cover.jpg
 image: /assets/images/recipes/pizza-romana-alice-pizza/cover.jpg
-categories: [Da Forno, Primi, Piatto Unico, Vegetariano, Vegano]
-tags: [Da Forno, Primi, Piatto Unico, Vegetariano, Vegano]
+categories: [Da Forno, Primi, Piatto Unico, Vegetariano, Vegano, Impasti]
+tags: [Da Forno, Primi, Piatto Unico, Vegetariano, Vegano, Impasti]
 ---
 ![image](/assets/images/recipes/pizza-romana-alice-pizza/pizza.jpg)
 

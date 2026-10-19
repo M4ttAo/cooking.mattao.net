@@ -42,19 +42,18 @@
 
     if (button) {
 
-      const nextTheme =
-        theme === "dark"
-          ? "light"
-          : "dark";
+      const nextTheme = theme === "dark" ? "light" : "dark";
+
+      const nextThemeLabel = nextTheme === "dark" ? "scuro" : "chiaro";
 
       button.setAttribute(
         "aria-label",
-        `Use ${nextTheme} theme`
+        `Usa il tema ${nextThemeLabel}`
       );
 
       button.setAttribute(
         "title",
-        `Use ${nextTheme} theme`
+        `Usa il tema ${nextThemeLabel}`
       );
 
     }

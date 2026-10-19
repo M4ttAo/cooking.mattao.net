@@ -6,8 +6,8 @@ permalink: /recipes/grissini-al-pomodoro/
 icon: 🥖
 cover: /assets/images/recipes/grissini-al-pomodoro/cover.jpg
 image: /assets/images/recipes/grissini-al-pomodoro/cover.jpg
-categories: [Da Forno, Vegetariano, Vegano]
-tags: [Da Forno, Vegetariano, Vegano]
+categories: [Da Forno, Vegetariano, Vegano, Impasti]
+tags: [Da Forno, Vegetariano, Vegano, Impasti]
 ---
 ![image](/assets/images/recipes/grissini-al-pomodoro/grissini.jpg)
 
