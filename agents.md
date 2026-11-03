@@ -121,5 +121,6 @@ Before finishing changes:
 2. Confirm every local image referenced by a recipe exists.
 3. Confirm recipe permalinks are unique.
 4. Confirm new categories and tag colors are defined when needed.
-5. Run `bundle exec jekyll build` when Ruby and Bundler are available.
+5. Do not install project dependencies or run Jekyll builds locally. Cloudflare performs the build
+   after deployment; validate local changes with static checks only.
 6. Do not commit or push unless explicitly requested.

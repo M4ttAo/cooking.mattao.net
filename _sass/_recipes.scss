@@ -146,8 +146,18 @@
 
 .recipe-top-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-columns: calc((100% - 3 * 1.15rem) / 4);
+  grid-auto-flow: column;
   gap: 1.15rem;
+  overflow-x: auto;
+  padding: 0.25rem 0 1rem;
+  scrollbar-color: var(--accent) transparent;
+  scrollbar-width: thin;
+  scroll-snap-type: x proximity;
+}
+
+.recipe-top-grid .recipe-card {
+  scroll-snap-align: start;
 }
 
 .recipe-card {
@@ -366,7 +376,7 @@
   }
 
   .recipe-top-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-columns: calc((100% - 1.15rem) / 2);
   }
 
   .recipe-hero {
@@ -455,7 +465,7 @@
   }
 
   .recipe-top-grid {
-    grid-template-columns: 1fr;
+    grid-auto-columns: 100%;
   }
 
   .recipe-cover {
